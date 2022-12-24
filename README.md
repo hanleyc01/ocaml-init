@@ -34,7 +34,7 @@ let () = print_endline "Hello, world!"
 5. Makefile
 ```
 test: bin/main.ml
-	dune build --profile=release && _build/default/bin/main.exe test.txt
+	dune build --profile=release && _build/default/bin/main.exe
 ```
 
 # Potential Note
