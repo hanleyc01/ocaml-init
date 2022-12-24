@@ -25,7 +25,7 @@ def emit_prebuild():
 
 def write_makefile():
     f = open("Makefile", 'w')
-    f.write('test: bin/main.ml\n\tdune build --profile=release && _build/default/bin/main.exe test.txt')
+    f.write('test: bin/main.ml\n\tdune build --profile=release && _build/default/bin/main.exe')
     f.close()
 
 if __name__ == '__main__':
